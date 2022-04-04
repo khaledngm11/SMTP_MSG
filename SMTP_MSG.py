@@ -7,7 +7,6 @@ import cv2
 import PIL.Image, PIL.ImageTk
 import tkinter.font as font
 import smtplib, ssl
-import conf
 def send ():
     
     server=smtplib.SMTP('64.233.184.108',587)
